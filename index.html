@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css">
+    <link rel="stylesheet" href="colors/color1.css"  class="alt-color" title="color1">
+    <link rel="stylesheet" href="colors/color2.css"  class="alt-color" title="color2" disabled>
+    <link rel="stylesheet" href="colors/color3.css"  class="alt-color" title="color3" disabled>
+    <link rel="stylesheet" href="colors/color4.css" class="alt-color" title="color4" disabled>
+
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <div class="settings-box">
+        <div class="settings-icons">
+            <div class="icon1">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+            <div class="icon2">
+                <i class="fas "></i>
+            </div>
+        </div>
+       
+        <div class="colors-box">
+            <div class="theme-color">
+                Theme Colors
+            </div>
+            <div class="spans-div">
+                <span class="color1" onclick="changeColor('color1')"></span>
+                <span class="color2" onclick="changeColor('color2')"></span>
+                <span class="color3" onclick="changeColor('color3')"></span>
+                <span class="color4" onclick="changeColor('color4')"></span>  
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- *********************Side-bar*********************** -->
+        <div class="sidebar-content">
+            <div class="logo"><span>H</span>ari</div>
+            <ul class="menu-options">
+                <li>
+                    <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fa fa-user"></i>About</a>
+                </li>
+                <li>
+                    <a href="#services"><i class="fa fa-list"></i> Works</a>
+                </li>
+                <li>
+                    <a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a>
+                </li>
+                <li>
+                    <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content" >
+            <!-- ***********************Home section************************* -->
+            <section class="home section hidden" id="home">
+                <div class="home-content">
+                    <h2 class="intro">Hello,This is <span class="name">Haritha</span></h2>
+                    <div class="typing">
+                        <div class="static">I'm a</div>
+                        <ul class="dynamic">
+                            <li><span>Frontend Developer</span></li>
+                            <li><span>Full Stack Developer</span></li>
+                            <li><span>Programmer</span></li>
+                            <li><span>Web Designer</span></li>
+                        </ul>
+                    </div>
+                    <p>
+                        Proactive computer science graduate with proficiency in software
+                        engineering principles and experience in Frontend Technologies and Avid Learner of MERN Stack.
+                        Passionate about creating dynamic and responsive websites that enhance user
+                        experience. Strong knowledge in object-oriented programming - Java, fundamental proficiency in Python, and efficient problem-solving skills.
+                    </p>
+                    <!-- <a href="#" class="hire-btn btn">Hire Me</a> -->
+                </div>
+                <div class="home-profile">
+                    <img src="images/image.png">
+                </div>
+            </section>
+            <!-- *************************About section************************ -->
+            <section class="about section hidden" id="about">
+                <h1 class="title">About</h1>
+                <div class="about-intro">
+                    <h1>I'm Haritha <span>
+                        <!-- Web Designer -->
+                    </span></h1>
+                    <p>
+                        I am a skilled Frontend Developer with a solid understanding of MERN Stack development. 
+                        I have worked on several mini projects using frontend technologies and have completed full-stack applications using the MERN stack.
+                         I am seeking an entry-level software developer position and am passionate about creating dynamic and responsive websites that enhance user experience.
+                    </p>
+                </div>
+                <div class="about-details">
+                    <div class="my-details">
+                        <ul class="details">
+                            <!-- <li>
+                                <span>Birthday:</span>
+                                <p>10th April</p>
+                            </li> -->
+                            <!-- <li>
+                                <span>Website:</span>
+                                <p>www.hari6131.com</p>
+                            </li> -->
+                            <li>
+                                <span>Degree:</span>
+                                <p>B-Tech, AI&ML</p>
+                            </li>
+                            <li>
+                                <span>City:</span>
+                                <p>Yerrampeta, Eluru, AP</p>
+                            </li>
+                            <!-- <li>
+                                <span>Age:</span>
+                                <p>19</p>
+                            </li> -->
+                            <li>
+                                <span>Email:</span>
+                                <p>harithakotha6131@gmail.com</p>
+                            </li>
+                            <!-- <li>
+                                <span>Phone:</span>
+                                <p>919391522508</p>
+                            </li> -->
+                            <!-- <li>
+                                <span>Status:</span>
+                                <p>Busy</p>
+                            </li> -->
+                            
+                        </ul>
+                        <div class="btns">
+                            <a href="https://drive.google.com/file/d/1G721IA_9hhDt8psqwF8L93ctj9mnjI9a/view?usp=drive_link" download="https://drive.google.com/file/d/1G721IA_9hhDt8psqwF8L93ctj9mnjI9a/view?usp=drive_link"><button class="download-cv-btn btn">Download CV</button></a>
+                            <!-- <button class="hire-me-btn btn">Hire Me</button> -->
+                        </div>
+                    </div>
+                    <!-- <div class="my-resources">
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:80%;" percent="80%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:75%;" percent="75%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JAVA SCRIPT</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:78%;" percent="78%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Programming</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:58%;" percent="58%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MERN Stack</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:72%;" percent="72%"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div> -->
+                   
+                </div>
+                <div class="qualifications">
+                    <div class="education">
+                        <h1>Education</h1>
+                        <div class="edu-container">
+                            <div class="edu-box">
+                                <div class="dates">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>2018-2019</span>
+                                </div>
+                                <h2>10th Standard</h2>
+                                <p>
+                                   I pursued my 10th standard with 9.7 CGPA at Sai Rakesh[E.M] High School, Gavaravaram.
+                                </p>
+                            </div>
+                            <div class="edu-box">
+                                <div class="dates">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>2019-2021</span>
+                                </div>
+                                <h2>Intermediate</h2>
+                                <p>
+                                    I pursued intermediate with 93.9% at Vidyavikas junior college, Jangareddygudem.
+                                </p>
+                            </div>
+                            <div class="edu-box">
+                                <div class="dates">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>2021-2025</span>
+                                </div>
+                                <h2>Engineering</h2>
+                                <p>
+                                   Currently pursuing B-Tech in the stream of AI&ML at Sasi institute of Technology and Engineering, Tadepalligudem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="experience">
+                        <h1>Experience</h1>
+                        <div class="exp-container">
+                            <div class="exp-box">
+                                <div class="dates">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>2021-2022</span>
+                                </div>
+                                <h2>C Language</h2>
+                                <p>
+                                   Learned C Lang in Lockdown with the help of Naresh IT youtube channel and later we got grip by following jenny's lectures.
+                                </p>
+                            </div>
+                            <div class="exp-box">
+                                <div class="dates">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>2022</span>
+                                </div>
+                                <h2>Python,DataBase</h2>
+                                <p>
+                                    Learned main concepts in Python language after C and afterthat solved database quries in my sql.
+                                </p>
+                            </div>
+                            <div class="exp-box">
+                                <div class="dates">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <span>2023-202_</span>
+                                </div>
+                                <h2>Web Development</h2>
+                                <p>
+                                    Did many mini-projects on frontend by using HTML,CSS,JS.
+                                    and now planning to learn REACT JS.
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                
+                    <div class="my-resources">
+                        <h1 class="skills">SKILLS</h1>
+                        <div class="skill">
+                            <span>Java</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:75%;" percent="75%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:85%;" percent="85%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>CSS</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:75%;" percent="75%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JAVA SCRIPT</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:82%;" percent="82%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Python</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:65%;" percent="65%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>React.js</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:80%;" percent="80%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Node.js</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:70%;" percent="70%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Express.js</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:70%;" percent="70%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MongoDB</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:80%;" percent="80%"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MySQL</span>
+                            <div class="skill-progress">
+                                <span class="progress-bar">
+                                    <span class="inner-progress" style="width:70%;" percent="70%"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- *******************************Services*************************** -->
+
+            <section class="services section hidden" id="services">
+                <h1 class="title">Work Experience</h1>
+                <div class="grid-container">
+                    <div class="grid-box">
+                        <i class="fa fa-code"></i>
+                        <h3><a href="https://github.com/Haritha-Kotha/Mini-Projects">web Design</a></h3>
+                        <p>
+                            I have built user-friendly interfaces for websites using frontend tools.
+                        </p>
+                    </div>
+                    <div class="grid-box">
+                        <i class="fa fa-laptop"></i>
+                        <h3><a href="https://github.com/Haritha-Kotha/Data-Structures">Data Structures</a></h3>
+                        <p>
+                            I have a strong understanding of data structures and have implemented programs for basic data structure concepts.
+                        </p>
+                    </div>
+                    <div class="grid-box">
+                        <i class="fa-brands fa-java"></i>
+                        <h3><a href="https://github.com/Haritha-Kotha/works/tree/main/my_java">Java</a></h3>
+                        <p>
+                            I can write intermediate-level programs in Java.I have good knowledge on OOPs concepts.
+                        </p>
+                    </div>
+                    <div class="grid-box">
+                        <i class="fa-brands fa-python"></i>
+                        <h3><a href="https://github.com/Haritha-Kotha/Python">Python</a></h3>
+                        <p>
+                            I am good at Python Programming. I have strong understanding of fundamental concepts.
+                        </p>
+                    </div>
+                    <!-- <div class="grid-box">
+                        <i class="fa fa-laptop-file"></i>
+                        <h3>Tkinter</h3>
+                        <p>
+                            As we learned python so we have a grip on it's library Tkinter.We done basic tkinter applications
+                        </p>
+                    </div> -->
+                    <!-- <div class="grid-box">
+                        <i class="fa fa-database"></i>
+                        <h3>DataBase</h3>
+                        <p>
+                            We can solve most of the MySQL queries on table,view operations and so on...
+                        </p>
+                    </div> -->
+                </div>
+            </section>
+            <!-- *************************Portfolio section****************************** -->
+            <section class="portfolio section hidden" id="portfolio">
+                <h1 class="title">Projects</h1>
+                <div class="my-projects">
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/Social-Media-Site"><img src="images/socialMedia.jpg"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/E-Commerce-Site"><img src="images/eCommerce.jpg"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/MERN_Quiz_Game"><img src="images/quiz.png"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/MERN-Authentication"><img src="images/Authentication.jpg"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/grade-calculator"><img src="images/calci.jpg" ></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/Alarm-Project"><img src="images/clock.jpg"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/mini-project-wordGuess"><img src="images/word-guess.jpg"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/Mini-Projects/tree/main/captcha"><img src="images/captcha.jpg"></a>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/Haritha-Kotha/Toast-Notification"><img src="images/toast-notifications.jpg"></a>
+                    </div>
+                </div>
+
+            </section>
+            <!-- *****************contact section*********************** -->
+            <section class="contact section hidden" id="contact">
+                <!-- <h1 class="title">Contact Me</h1>
+                <div class="contact-title">
+                    <h3>Have You Any Questions??</h3>
+                    <h5>I'm at your services</h5>
+                </div>
+                <div class="contact-div">
+                    <div class="sub-contact">
+                        <i class="fa fa-phone"></i>
+                        <h5>Call us on</h5>
+                        <p>+919391522508</p>
+                    </div>
+                    <div class="sub-contact">
+                        <i class="fa fa-heart"></i>
+                        <h5>Home</h5>
+                        <p>Yerrampeta</p>
+                    </div>
+                    <div class="sub-contact">
+                        <i class="fa fa-envelope"></i>
+                        <h5>Email</h5>
+                        <p>harithakotha6131@gmail.com</p>
+                    </div> <div class="sub-contact">
+                        <i class="fa fa-globe"></i>
+                        <h5>Website</h5>
+                        <p>www.hari6131.com</p>
+                    </div>
+                </div> -->
+                <div class="contact-title">
+                    <h3>Contact</h3>
+                </div>
+                <h5>harithakotha6131@gmail.com</h5>
+                <h5>9391522508</h5>
+                
+                <a href="https://linkedin.com/in/haritha-kotha"><h5> LinkedIn</h5></a>
+              
+                
+                <a href="https://github.com/Haritha-Kotha/"><h5> GitHub</h5></a>
+
+                <!-- <div class="input-divs">
+                    <div class="name-inputs">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Message"></textarea>
+                    <div class="btns">
+                        <button class="btn">Send Message</button>
+                    </div>
+                </div> -->
+
+            </section>
+        </div>
+    </div>
+    
+</body>
+</html>
