@@ -35,6 +35,7 @@ window.addEventListener("scroll",()=>{
     }
 })
 
+
 function changeColor(color)
 {
     altColors.forEach((style)=>{
